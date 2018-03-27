@@ -21,7 +21,7 @@ function myFunction(xml) {
     txt = "";
     x = xmlDoc.documentElement.childNodes;
 
-	console.log(x.length);
+	console.log(x);
     for (i = 0; i < x.length; i++) { 
         if (x[i].nodeType == 1) {
             txt += x[i].nodeName + "<br>";
